@@ -1,0 +1,31 @@
+.main{
+    height: 100%;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.elem{
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    border-bottom: 2px solid white;
+align-items: center;
+    justify-content: flex-start;
+    display: flex;
+}
+.elem img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    transform: translate(-50%,-9%);
+    position: absolute;
+    opacity: 0;
+    transition: all ease 0.3s;
+     mix-blend-mode: difference;
+}
